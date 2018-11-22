@@ -2,7 +2,7 @@
 home: true
 heroImage: /komodo-logo-horizontal-02.png
 actionText: Get Started →
-actionLink: /start-here/introduction.html
+actionLink: /intro/start-here/introduction.html
 features:
 - title: For Blockchain Beginners
   details: Are you experienced with at least one programming language, but want to learn what this "blockchain thing" is all about? Welcome! Komodo lets you have a whole blockchain to yourself -- the perfect place to learn. Start your journey here →
@@ -12,3 +12,5 @@ features:
   details: Are you experienced enough to play around with a conensus mechanism? Welcome! Komodo provides you perhaps the most powerful playground in the industry. Start your journey here →
 footer: MIT Licensed | Copyright © 2018-present Komodo
 ---
+
+

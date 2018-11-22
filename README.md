@@ -4,6 +4,8 @@ Built using [Vuepress](https://vuepress.vuejs.org/)
 
 ## Setup:
 
+Pre-requisites: nodejs and yarn.
+
 * Clone the repository
 * `cd` into the directory `cd komodo-docs-vuepress/`
 
@@ -13,7 +15,7 @@ Install Vuepress globally
 yarn global add vuepress
 ```
 
-Or # install as a local dependency
+Or install as a local dependency
 
 ```shell
 yarn add -D vuepress
@@ -30,7 +32,7 @@ HTML output is displayed at http://localhost:8080
 
 If the changes are not reflected right away, refresh the page.
 
-## build
+## Build
 
 ```shell
 yarn docs:build
@@ -38,10 +40,11 @@ yarn docs:build
 
 The html files are available in `komodo-docs-vuepress/docs/.vuepress/dist/`
 
-## deploy
+## Deploy
 
 To deploy to gh-pages at https://<USERNAME>.github.io/<REPO>
 
 ```shell
 ./deploy.sh
 ```
+
