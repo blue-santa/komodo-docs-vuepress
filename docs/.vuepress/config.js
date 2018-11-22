@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Komodo Developer Documentation",
+  title: "Komodo Developer Portal",
   base: "/komodo-docs-vuepress/",
   description: "Documentation for developers building on Komodo",
   themeConfig: {
