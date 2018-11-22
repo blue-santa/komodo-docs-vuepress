@@ -4,27 +4,32 @@ Built using [Vuepress](https://vuepress.vuejs.org/)
 
 ##Setup:
 
-> install globally
+* Clone the repository
+* `cd` into the directory `cd komodo-docs-vuepress/`
+
+Install Vuepress globally
 
 ```shell
 yarn global add vuepress # OR npm install -g vuepress
 ```
 
-## create a markdown file
+Or # install as a local dependency
 
 ```shell
-yarn global add vuepress # OR npm install -g vuepress
+yarn add -D vuepress # OR npm install -D vuepress
 ```
-echo '# Hello VuePress' > README.md
 
-## start writing
+## Start Editing
 
 ```shell
 yarn docs:dev
 ```
 
 HTML output is displayed at http://localhost:8080
-If the changes are not reflected right away, refresh the page
+
+>Edit the markdown files in the directory `docs`
+
+If the changes are not reflected right away, refresh the page.
 
 ## build
 
@@ -36,4 +41,8 @@ The html files are available in `komodo-docs-vuepress/docs/.vuepress/dist/`
 
 ## deploy
 
-To deploy to gh-pages at  
+To deploy to gh-pages at https://<USERNAME>.github.io/<REPO>
+
+```shell
+./deploy.sh
+```
