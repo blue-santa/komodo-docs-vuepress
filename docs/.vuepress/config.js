@@ -6,7 +6,7 @@ module.exports = {
     nav: [
       { text: "Start Here", link: "/intro/" },
       { text: "Blockchain Starter Kit", link: "/bsk/create-kic.md" },
-      { text: "Write a dAPP", link: "/start-here/introduction.md" },
+      { text: "Write a dAPP", link: "/intro/" },
       {
         text: "Develop a CC based contract",
         link: "/start-here/introduction.md"
@@ -91,7 +91,7 @@ module.exports = {
       ],
       "/bsk/": ["", "create-kic.md", "insight-explorer.md"],
       // fallback
-      "/": ["" /* / */, "/intro/start-here/introduction.md"]
+      "/": ["", "/intro/"]
     }
   }
 };
