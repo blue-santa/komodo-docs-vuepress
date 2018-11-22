@@ -9,7 +9,7 @@ module.exports = {
       { text: "Write a dAPP", link: "/intro/" },
       {
         text: "Develop a CC based contract",
-        link: "/start-here/introduction.md"
+        link: "/intro/"
       },
       { text: "Be a Notary Node", link: "/notary/" },
       { text: "Misc. Docs", link: "https://docs.komodoplatform.com" },
