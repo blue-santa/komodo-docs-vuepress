@@ -1,8 +1,8 @@
-#Readme
+# Readme
 
 Built using [Vuepress](https://vuepress.vuejs.org/)
 
-##Setup:
+## Setup:
 
 * Clone the repository
 * `cd` into the directory `cd komodo-docs-vuepress/`
@@ -10,15 +10,14 @@ Built using [Vuepress](https://vuepress.vuejs.org/)
 Install Vuepress globally
 
 ```shell
-yarn global add vuepress # OR npm install -g vuepress
+yarn global add vuepress
 ```
 
 Or # install as a local dependency
 
 ```shell
-yarn add -D vuepress # OR npm install -D vuepress
+yarn add -D vuepress
 ```
-
 ## Start Editing
 
 ```shell
