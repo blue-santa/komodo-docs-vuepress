@@ -5,6 +5,10 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Start Here', link: '/start-here/introduction.md' },
+      { text: 'Blockchain Starter Kit', link: '/bsk/introduction.md' },
+      { text: 'Develop a dAPP', link: '/start-here/introduction.md' },
+      { text: 'Be a Notary Node', link: '/start-here/introduction.md' },
+      { text: 'Misc. Docs', link: 'https://docs.komodoplatform.com' },
       { text: 'KomodoPlatform.com', link: 'https://komodoplatform.com' },
     ],
     sidebar: [
