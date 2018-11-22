@@ -42,7 +42,7 @@ The html files are available in `komodo-docs-vuepress/docs/.vuepress/dist/`
 
 ## Deploy
 
-To deploy to gh-pages at https://<USERNAME>.github.io/<REPO>
+To deploy to gh-pages at `https://<USERNAME>.github.io/<REPO>`
 
 ```shell
 ./deploy.sh
