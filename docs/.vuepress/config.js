@@ -6,7 +6,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav: [{
         text: "Start Here",
-        link: "/basic-docs/start-here/introduction.md"
+        link: "/basic-docs/"
       },
       {
         text: "KomodoPlatform.com",
@@ -18,7 +18,7 @@ module.exports = {
           title: "Start Here",
           collapsable: true,
           children: [
-            ["/basic-docs/start-here/introduction.md", "Introduction"],
+            ["/basic-docs/", "Introduction"],
             [
               "/basic-docs/start-here/outline-for-new-developers.md",
               "Outline for New Developers"
