@@ -4,7 +4,7 @@
 
 Komodo is built on the Bitcoin protocol, and traditionally, Bitcoin Script is thought of as being incapable of supporting smart contracts. This is mostly a consequence of the fact that Bitcoin Script is (intentionally) not Turing complete. Now, all of this is changing with Crypto Conditions, a utxo-based smart contract protocol.
 
-As is often the case, Komodo Platform is leading the blockchain industry in this brand new technology. This section will explain what Crypto Conditions is, how it works, and how utxo-based smart contracts will dramatically alter the blockchain landscape.
+As is often the case, Komodo Platform is leading the blockchain industry in adopting this brand new technology. This section will explain what Crypto Conditions is, how it works, and how utxo-based smart contracts will dramatically alter the blockchain landscape.
 
 ## A Brief Review of Bitcoin Script
 
@@ -88,7 +88,7 @@ The value of the gas fees for an Uber-like decentralized app would have to cover
 
 Therefore, looking only at the costs, and not at the lack of space for multiple dApps, we begin to see the enormous flaws of the gas-based model. While existing large corporations and their customer bases may be able to afford this financial burn rate, it is difficult to conceive of a startup that can afford it. The ongoing gas fees to continually maintain the functionality of this dApp are simply too expensive.
 
-All this is assuming that the dApp only processes one transaction per ride, per customer. If the dApp is instead a game that has a looping function, the gas fees can grow even more absurd, and the blockchain itself can crash as it attempts to constantly operate at 100% capacity.
+All this is assuming that the dApp only processes one transaction per ride, per customer. If the dApp is instead a game that has a looping function, the gas fees can grow even more absurd.
 
 Furthermore, all dApps on the Ethereum platform have to share the same gas, and the same blockchain, and this compounds the problem. If an existing business running a dApp on the platform becomes suddenly popular, the surge of people wanting to use the dApp must purchase gas, and this causes the price of gas to rapidly rise. The burst of activity can also cause the blockchain to grind to a halt.
 
@@ -104,13 +104,13 @@ Recall that Satoshi Nakamoto's Bitcoin Script is not Turing complete. This choic
 
 However, at the same time, the lack of Turing completeness also prevented smart contracts and dApps from being launched on Bitcoin-protocol based blockchains--until now.
 
-Komodo now offers "Crypto Conditions", a feature that allows smart contracts to be developed on top of Bitcoin-protocol based blockchains. We believe Crypto Conditions to be a useful addition to the blockchain industry, because it empowers Bitcoin-core based cryptocurrencies with support for smart contracts and decentralized applications.
+Komodo now offers "Crypto Conditions", a feature that allows smart contracts to be developed on top of Bitcoin-protocol based blockchains. We believe Crypto Conditions to be a useful addition to the blockchain industry, because it empowers Bitcoin based cryptocurrencies with support for smart contracts and decentralized applications.
 
 Furthermore, Crypto Conditions gains more usefulness when combined with Komodo's unique design. Recall that Komodo is built not to require all developers and users to function on the main Komodo blockchain. Rather, it empowers you with an independent blockchain all of your own, secures each chain with the hash rate of Bitcoin, and facilitates an interconnected network between all such chains using technologies such as atomic-swaps, cross-chain smart contracts, chain interlinking, and more.
 
 This combination of Komodo technologies overcomes the challenges of the currently popular, gas-based, single-blockchain platforms.
 
-With Crypto Conditions, the business developer can maintain interactivity with the Komodo ecosystem, while also being able to run their smart contracts and dApps on a private blockchain. Because the developer has the full blockchain all to themselves, they are able to safely occupy the full transaction capacity without fear of interruption by other dApp developers in the ecosystem. Developers of highly active blockchains can even split their single blockchain into multiple blockchains, using the same interconnection technology.
+With Crypto Conditions, the business developer can maintain interactivity with the Komodo ecosystem, while also being able to run their smart contracts and dApps on a private blockchain. Because the developer has the full blockchain all to themselves, they are able to safely occupy the full transaction capacity without fear of interruption by other dApp developers in the ecosystem. Developers of highly active blockchains can even have multiple Blockchain that represent the same coin and they can share the transaction load, using the same interconnection technology.
 
 In short, if you want to build an Uber-like dApp, Komodo is the platform for you.
 
@@ -162,7 +162,7 @@ For all of these reasons, the private key is no longer the relevant factor for c
 
 It’s also worth pointing out that one of the conditions of a Crypto Conditions contract can be a restriction on which addresses the funds can be sent to.
 
-With these rules in place, a Crypto Conditions smart contract becomes like a mini-consensus mechanism. It forces consensus for the participants in the smart contract, while riding on the master consensus mechanism of the blockchain.
+With these rules in place, a Crypto Conditions smart contract becomes like a mini-consensus mechanism. It forces consensus for the smart contract, just like the master consensus mechanism of the blockchain.
 
 If you'd like to try writing your own Crypto Conditions smart contract, [read this documentation by Komodo’s lead developer, JL777](https://docs.komodoplatform.com/cc/index-book-jl.html).
 
@@ -182,11 +182,11 @@ The C and C++ programming languages are widely understood, time-tested, and, per
 
 Furthermore, because smart contracts on Komodo run in the daemon, developers can avoid the limitations and hassles of having to run code in a virtual machine, as is the case with the many gas-based smart contract platforms. On Komodo, you have far more speed, flexibility, and power. This is made possible by our unique design of connecting independent blockchains together, rather than forcing all users to run on a layer-one main chain.
 
-Second, utxo-based smart contracts are more secure than balance-based smart contracts. This is true in several ways. For one thing, because Komodo’s smart contracts are utxo-based, it is far more difficult, if not impossible, to use a smart contract to flood the parent coin's coin supply with malicious coins.
+Second, utxo-based smart contracts are more secure than balance-based smart contracts. This is true in several ways. For one thing, because Komodo’s smart contracts are utxo-based, it is far more difficult, if not impossible, to use a smart contract to flood the parent coin's coin supply with illegitimate coins.
 
 This is not the case with balance-based smart contracts, like those on Ethereum. Because the smart contracts are linked to balances, rather than blockchain-enforced utxos, a malicious actor can manipulate balances to disastrous ends. We’ve seen this happen again and again and again.
 
-Third, utxo-based smart contracts are essentially an extension of the Bitcoin protocol, so a series of RPC calls can be established. This makes it extremely simple to customize and implement utxo-based smart contracts.
+Third, utxo-based smart contracts are essentially an extension of the Bitcoin protocol, so a series of RPC calls can be established. This makes it extremely simple to customize and implement dAPPs that access these smart-contracts.
 
 It is a straightforward process to create a GUI so non-technical users can make use of Komodo’s smart-contract technology without needing to work through a CLI. Eventually, once a large variety of RPC calls have been created, it will become possible to build entire decentralized applications based on RPC calls alone.
 
@@ -194,9 +194,9 @@ Fourth, Crypto Conditions allows zero-confirmation micro-payments. Also, these 0
 
 Finally, utxo-based smart contracts do not require “gas” or any sort of fee for every process executed. Recall that the smart contracts and dApps built on Ethereum must pay for gas for every single process. The gas-based model makes complex dApps impossible.
 
-Komodo, on the other hand, is far more scalable and will not require a fee for every single process, other than a single, ordinary transaction fee for sending funds. This fee is not paid in KMD, but in the coin of the developer and user's choice.
+Komodo's framework, on the other hand, is far more scalable and will not require a fee for every single process, other than a single, ordinary transaction fee for sending funds. This fee is not paid in KMD, but in the coin of the developer and user's choice.
 
-To avoid the risk of infinite loops, Komodo is exhaustively testing the code for all smart contracts prior to implementation.
+Komodo's testers and community are exhaustively testing the code for all smart contracts prior to implementation.
 
 Then the contracts are embedded into the Komodo daemon. This prevents alterations, while also making the code publicly visible. Anyone can verify the code of the contracts to see that they do exactly what they claim.
 
