@@ -1,21 +1,25 @@
 {
   "name": "docs",
   "description": "dev docs for Komodo Platform",
+  "author": "Contributors from Komodo Platform",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "dependencies": {
+    "vuetify": "^1.3.9"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vuepress": "^0.14.5",
+    "vuetify-loader": "^1.0.5"
+  },
   "keywords": [
     "documentation",
     "komodo",
     "developer"
   ],
-  "author": "Contributors from Komodo Platform",
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^0.14.5"
-  },
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "dependencies": {
-    "vuetify": "^1.3.9"
-  }
+  "license": "MIT"
 }
